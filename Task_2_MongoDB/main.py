@@ -5,7 +5,7 @@ from faker import Faker
 
 try:
     client = MongoClient(
-        "mongodb+srv://spogoretskyi:WJksUXOSPn9ndmxG@cluster0.oyifeh9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        "mongodb+srv://************:*********@cluster0.******.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     )
     db = client["cats"]
     collection = db["cats_collection"]
